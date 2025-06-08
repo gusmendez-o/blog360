@@ -51,3 +51,17 @@ footer {
     font-size: 14px;
     font-style: italic;
 }
+/* Ajuste de imágenes para móviles */
+@media screen and (max-width: 768px) {
+    .background-container {
+        background-size: contain; /* Asegura que la imagen no se corte */
+        min-height: 200vh; /* Ajusta la altura para pantallas pequeñas */
+    }
+
+    .background-container img {
+        width: 100%;
+        height: auto; /* Mantiene la proporción */
+        display: block;
+        margin: 0 auto;
+    }
+}
