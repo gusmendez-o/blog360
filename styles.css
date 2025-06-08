@@ -55,7 +55,7 @@ footer {
 @media screen and (max-width: 768px) {
     .background-container {
         background-size: contain; /* Asegura que la imagen no se corte */
-        min-height: 200vh; /* Ajusta la altura para pantallas pequeñas */
+        max-height: 400px; /* Limita la altura a 400 píxeles */
     }
 
     .background-container img {
