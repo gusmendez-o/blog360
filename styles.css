@@ -63,5 +63,6 @@ footer {
         height: auto; /* Mantiene la proporción */
         display: block;
         margin: 0 auto;
+        border: 5px solid red;
     }
 }
