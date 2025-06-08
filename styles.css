@@ -59,7 +59,7 @@ footer {
     }
 
     .background-container img {
-        width: 100%;
+        width: 80%;
         height: auto; /* Mantiene la proporción */
         display: block;
         margin: 0 auto;
