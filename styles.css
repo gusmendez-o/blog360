@@ -1,0 +1,53 @@
+/* Eliminar márgenes y ajustar fondo */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Configurar el fondo */
+.background-container {
+    width: 100%;
+    min-height: 668vh; /* Mantiene la estructura vertical */
+    background-image: url('images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Asegura que el pie de página esté al final */
+    align-items: center;
+}
+
+/* Estilos del pie de página */
+footer {
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para que destaque sobre la imagen */
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+}
+
+/* Íconos de redes sociales */
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+/* Firma */
+.firma {
+    font-size: 14px;
+    font-style: italic;
+}
