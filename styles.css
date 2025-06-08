@@ -5,38 +5,35 @@ html, body {
     height: 100%;
 }
 
-/* Configurar el fondo */
+/* Ajustar el fondo en todas las pantallas */
 .background-container {
     width: 100%;
-    min-height: 668vh; /* Mantiene la estructura vertical */
+    min-height: 666vh; /* Ajusta si es necesario */
     background-image: url('images/fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Asegura que el pie de página esté al final */
+    justify-content: flex-end; /* Asegura que el pie de página quede abajo */
     align-items: center;
+    padding-bottom: 50px; /* Espaciado para evitar que se corte */
 }
 
-/* Estilos del pie de página */
+/* Pie de página dentro de la imagen */
 footer {
-    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para que destaque sobre la imagen */
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
     color: white;
     text-align: center;
-    padding: 1px;
-    width: 100%;
+    padding: 15px;
+    width: 90%;
+    border-radius: 10px;
 }
 
-/* Íconos de redes sociales */
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
+/* Ajustar tamaño de íconos */
 .social-icons img {
-    width: 40px;
-    height: 40px;
+    width: 35px; /* Reducir tamaño en móviles */
+    height: 35px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -46,23 +43,20 @@ footer {
     opacity: 0.7;
 }
 
-/* Firma */
-.firma {
-    font-size: 14px;
-    font-style: italic;
-}
-/* Ajuste de imágenes para móviles */
+/* Estilos para móviles */
 @media screen and (max-width: 768px) {
     .background-container {
-        background-size: contain; /* Asegura que la imagen no se corte */
-        max-height: 400px; /* Limita la altura a 400 píxeles */
+        min-height: 300vh; /* Reducir altura para celulares */
+        background-size: contain; /* Evitar cortes */
     }
 
-    .background-container img {
-        width: 50%;
-        height: auto; /* Mantiene la proporción */
-        display: block;
-        margin: 0 auto;
-        border: 5px solid red;
+    footer {
+        width: 95%; /* Ajustar ancho en móviles */
+        padding: 10px;
+    }
+
+    .social-icons img {
+        width: 30px; /* Íconos más pequeños en celular */
+        height: 30px;
     }
 }
