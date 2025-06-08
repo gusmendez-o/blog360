@@ -60,3 +60,6 @@ footer {
         height: 30px;
     }
 }
+body {
+    background-color: red !important;
+}
