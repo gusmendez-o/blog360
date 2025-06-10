@@ -45,7 +45,7 @@ footer {
 /* Estilos para móviles */
 @media screen and (max-width: 768px) {
     .background-container {
-        max-width: 90%; /* Reducir el ancho de la página al 90% del tamaño de la pantalla */
+        max-width: 80%; /* Reducir el ancho de la página al 80% del tamaño de la pantalla */
         margin: 0 auto; /* Centrar el contenido */
         padding: 10px; /* Agregar algo de espacio interno */
         background-size: contain !important;
