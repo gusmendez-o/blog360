@@ -17,7 +17,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-end; /* Asegura que el pie de página quede abajo */
     align-items: center;
-    padding: 20px; /* Agregar margen interno */
+    padding: 30px; /* Agregar margen interno */
     box-sizing: border-box; /* Asegurar que todo encaje dentro del contenedor */
 }
 
