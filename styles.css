@@ -17,7 +17,8 @@ html, body {
     flex-direction: column;
     justify-content: flex-end; /* Asegura que el pie de página quede abajo */
     align-items: center;
-    padding-bottom: 50px; /* Espaciado para evitar que se corte */
+    padding: 20px; /* Agregar margen interno */
+    box-sizing: border-box; /* Asegurar que todo encaje dentro del contenedor */
 }
 
 /* Pie de página dentro de la imagen */
@@ -26,8 +27,8 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    width: 90%;
-    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Evitar desbordamientos */
 }
 
 /* Ajustar tamaño de íconos */
