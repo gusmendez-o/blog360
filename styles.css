@@ -46,7 +46,7 @@ footer {
 @media screen and (max-width: 768px) {
     .background-container {
         background-size: contain !important; /* Evita que la imagen se recorte */
-        min-height: 300vh !important; /* Ajusta para que no sobresalga */
+        min-height: 1oovh !important; /* Ajusta para que no sobresalga */
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
