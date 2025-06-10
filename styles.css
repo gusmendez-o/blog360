@@ -45,17 +45,13 @@ footer {
 /* Estilos para móviles */
 @media screen and (max-width: 768px) {
     .background-container {
-        background-size: contain !important; /* Evita que la imagen se recorte */
-        min-height: 1oovh !important; /* Ajusta para que no sobresalga */
+        max-width: 90%; /* Reducir el ancho de la página al 90% del tamaño de la pantalla */
+        margin: 0 auto; /* Centrar el contenido */
+        padding: 10px; /* Agregar algo de espacio interno */
+        background-size: contain !important;
+        min-height: 100vh !important;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-    }
-
-    .background-container img {
-        max-width: 80% !important; /* Reducir el tamaño de la imagen */
-        height: auto !important;
-        display: block;
-        margin: 0 auto;
     }
 }
