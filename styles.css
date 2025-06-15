@@ -44,14 +44,23 @@ footer {
 
 /* Estilos para móviles */
 @media screen and (max-width: 768px) {
-    .background-container {
-        max-width: 80%; /* Reducir el ancho de la página al 80% del tamaño de la pantalla */
-        margin: 0 auto; /* Centrar el contenido */
-        padding: 10px; /* Agregar algo de espacio interno */
-        background-size: contain !important;
-        min-height: 100vh !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
+  .background-container {
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    min-height: auto;
+    box-sizing: border-box;
+  }
+
+  footer {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
 }
