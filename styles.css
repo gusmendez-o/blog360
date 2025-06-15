@@ -59,6 +59,7 @@ footer {
 
   .contenido-principal {
     flex-grow: 1;
+    min-height: 300px; /* Ajusta si es necesario */
   }
 
   footer {
