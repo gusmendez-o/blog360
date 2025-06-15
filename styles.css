@@ -46,15 +46,17 @@ footer {
 @media screen and (max-width: 768px) {
   .background-container {
     width: 100%;
-    padding: 0 10px; /* deja espacio a los lados */
-    background-size: cover;
-    background-position: center;
-    min-height: auto;
+    padding: 0 10px;
     box-sizing: border-box;
+    background-size: cover;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   footer {
-    margin-top: 80px; /* o ajustalo a lo que necesites */
+    margin-top: 80px;
     width: 100%;
     font-size: 14px;
     padding: 12px;
