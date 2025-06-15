@@ -62,15 +62,21 @@ footer {
     min-height: 300px; /* Ajusta si es necesario */
   }
 
+  @media screen and (max-width: 768px) {
   footer {
-    margin-top: 80px;
-    width: 100%;
-    font-size: 14px;
+    font-size: 3.5vw; /* Se ajusta dinámicamente al ancho del dispositivo */
     padding: 12px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .firma {
+    font-size: 3vw;
   }
 
   .social-icons img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
   }
 }
+
