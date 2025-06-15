@@ -57,6 +57,10 @@ footer {
   justify-content: space-between; /* Distribuye el contenido de arriba a abajo */
 }
 
+   .contenido-principal {
+  flex-grow: 1;
+}
+
   footer {
     margin-top: 80px;
     width: 100%;
