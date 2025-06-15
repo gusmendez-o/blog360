@@ -62,7 +62,6 @@ footer {
     min-height: 300px; /* Ajusta si es necesario */
   }
 
-  @media screen and (max-width: 768px) {
   footer {
     font-size: 3.5vw; /* Se ajusta dinámicamente al ancho del dispositivo */
     padding: 12px;
