@@ -63,7 +63,7 @@ footer {
   }
 
   footer {
-    font-size: 3.5vw; /* Se ajusta dinámicamente al ancho del dispositivo */
+    font-size: 100vw; /* Se ajusta dinámicamente al ancho del dispositivo */
     padding: 100px;
     text-align: center;
     word-wrap: break-word;
