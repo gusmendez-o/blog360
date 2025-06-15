@@ -63,10 +63,14 @@ footer {
   }
 
   footer {
-    font-size: 100vw; /* Se ajusta dinámicamente al ancho del dispositivo */
-    padding: 100px;
+    font-size: 3.5vw; /* Se ajusta dinámicamente al ancho del dispositivo */
+    padding: 12px;
     text-align: center;
     word-wrap: break-word;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
   }
 
   .firma {
