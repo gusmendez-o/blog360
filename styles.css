@@ -45,22 +45,21 @@ footer {
 /* Estilos para móviles */
 @media screen and (max-width: 768px) {
   .background-container {
-  width: 100%;
-  height: 100vh; /* Asegura que la imagen cubra la pantalla */
-  padding: 10px;
-  box-sizing: border-box;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Distribuye el contenido de arriba a abajo */
-}
+    width: 100%;
+    min-height: 100vh; /* ← CAMBIO AQUÍ */
+    padding: 10px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-   .contenido-principal {
-  flex-grow: 1;
-}
-
+  .contenido-principal {
+    flex-grow: 1;
+  }
 
   footer {
     margin-top: 80px;
