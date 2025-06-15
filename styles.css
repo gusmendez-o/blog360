@@ -54,6 +54,7 @@ footer {
   }
 
   footer {
+    margin-top: 80px; /* o ajustalo a lo que necesites */
     width: 100%;
     font-size: 14px;
     padding: 12px;
