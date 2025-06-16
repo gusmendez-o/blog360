@@ -18,11 +18,13 @@ html, body {
   width: 100%;
 }
 
+/* Imagen responsive completa */
 .plantilla-img {
-  width: 100vw;       /* Asegura ancho completo en móvil */
-  height: auto;
   display: block;
-  flex-grow: 1;
+  width: 100vw;
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
 }
 
 /* FOOTER */
