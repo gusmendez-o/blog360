@@ -44,42 +44,61 @@ footer {
 
 /* Estilos para móviles */
 @media screen and (max-width: 768px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .background-container {
     width: 100%;
-    min-height: 100vh; /* ← CAMBIO AQUÍ */
-    padding: 10px;
-    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 16px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
   }
 
   .contenido-principal {
     flex-grow: 1;
-    min-height: 300px; /* Ajusta si es necesario */
+    width: 100%;
   }
 
   footer {
-    font-size: 3.5vw; /* Se ajusta dinámicamente al ancho del dispositivo */
-    padding: 12px;
+    width: 100%;
+    font-size: 3.5vw;
     text-align: center;
+    padding: 16px 8px;
+    background-color: rgba(0, 0, 0, 0.5); /* Mejora la legibilidad si hay imagen detrás */
+    color: white;
+    box-sizing: border-box;
     word-wrap: break-word;
-    max-width: 100%;
     overflow-wrap: break-word;
-    word-break: break-word;
-    text-align: center;
   }
 
   .firma {
-    font-size: 1vw;
+    font-size: 3vw;
+    margin-top: 8px;
+    line-height: 1.2;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
   }
 
   .social-icons img {
-    width: 12px;
-    height: 12px;
+    width: 32px;
+    height: 32px;
+  }
+
+  h1, h2, h3, p {
+    font-size: 4vw;
   }
 }
-
